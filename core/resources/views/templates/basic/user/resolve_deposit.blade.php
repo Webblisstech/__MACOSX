@@ -29,7 +29,7 @@
                                     </div>
 
 
-                                    <button type="submit" class="btn btn--base w-100 mt-3" id="btn-confirm">@lang('Contine')
+                                    <button type="submit" class="btn btn--base w-100 mt-3" id="btn-confirm">@lang('Resolve Now')
 
 
 
