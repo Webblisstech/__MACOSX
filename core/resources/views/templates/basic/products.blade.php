@@ -62,10 +62,12 @@
                             @include($activeTemplate.'partials/products')
                         @endforeach
                         <div class="text-center mt-3">
-                            <a href="{{ route('category.products', ['search'=>request()->search, 'slug'=>slug($category->name), 'id'=>$category->id]) }}" class="btn btn-danger btn--sm" style="width: 100%;">@lang('View All')</a>
-                            <br>
+                                <a style="background:darkblue; width: 100%; border: 0px;"
+                                   href="{{ route('category.products', ['search'=>request()->search, 'slug'=>slug($category->name), 'id'=>$category->id]) }}"
+                                   class="btn btn--block" style="width: 100%;">@lang('View All')</a>
+                                <br>
+                            </div>
                         </div>
-                    </div>
                 @empty
                     <div class="empty-data text-center">
                         <div class="thumb">
