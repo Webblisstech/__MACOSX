@@ -37,17 +37,19 @@
     </div>
 
 
-<style>
+<!-- <style>
     /* Add custom CSS styles */
     .product-description {
         font-weight: normal; /* Override bold font weight */
     }
-</style>
+</style> -->
 
-<section class="catalog-section section-bg py-{{ @$categories->count() ? 120 : 60 }}" style="background-color: red;">
-    <div class="container-fluid">
-        <div class="row justify-content-center">
-            <div class="col-xxl-10 col-xl-11">
+
+<section class="catalog-section section-bg py-{{ @$categories->count() ? 100 : 60 }}"
+             style="">
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-xxl-10 col-xl-11">
                 @forelse($categories as $category)
                     @php
                         $products = $category->products;
