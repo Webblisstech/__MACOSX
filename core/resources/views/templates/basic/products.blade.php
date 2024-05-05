@@ -22,13 +22,21 @@
         </div>
     </section>
     <br>
- <div><a href="https://oprimeboost.com" class="btn btn-primary w-100 mt-1"
-                        id="btn-confirm">@lang('Boost Account')</a>
-                    <br>
-                    <br>
-            <a href="https://oprimeverify.com" class="btn btn-danger w-100 mt-1"
-                        id="btn-confirm">@lang('BUY USA Number for Verifications')</a>
-                    </div>
+ <
+    <div class="d-flex justify-content-center my-3">
+
+        <div class="btn-group" role="group" aria-label="Third group">
+            <a style="font-size: 10px; background: darkblue;" href="https://oprimeboost.com" class="btn btn w-200 mt-1"><i class="fa fa-fighter-jet me-2"></i> Boost Account</a>
+            <a style="font-size: 10px" href="https://oprimeverify.com" class="btn btn-danger w-200 mt-1"><i class="fa fa-comment me-1"></i>Buy Number Verification</a></i>
+
+        </div>
+
+
+
+
+    </div>
+
+
 <style>
     /* Add custom CSS styles */
     .product-description {
