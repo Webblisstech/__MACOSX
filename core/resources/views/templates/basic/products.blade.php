@@ -54,9 +54,10 @@
                     @endphp
                     <br>
                     <div class="catalog-item-wrapper">
-                        <div class="catalog-item-wrapper__header d-flex align-items-center justify-content-between">
-                            <h5 class="title mb-0 btn btn-danger" style="width: 100%; background-color: black; color: white;">{{ __($category->name) }}</h5>
-                        </div>
+                            <div class="catalog-item-wrapper__header d-flex align-items-center justify-content-between">
+                                <h5 class="title mb-0 btn btn-danger"
+                                    style="background: linear-gradient(90deg, #FF0909 0%, #042FC7 100%); border-radius: 40px; width: 100%; border: 0px; color: white;">{{ __($category->name) }}</h5>
+                            </div>
                         @foreach($products->take(10) as $product)
                             @include($activeTemplate.'partials/products')
                         @endforeach
